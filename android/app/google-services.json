@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "733440569004",
+    "project_id": "ev-charging-3a187",
+    "storage_bucket": "ev-charging-3a187.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733440569004:android:1b3a00a78f02d3a4b0b909",
+        "android_client_info": {
+          "package_name": "com.example.EV_Charging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733440569004-rm76ijdfjmvvo714l08rfq34ftpjnqoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.EV_Charging",
+            "certificate_hash": "f70280c0fa1e5aa3aa8bd336a8c809b7636d953e"
+          }
+        },
+        {
+          "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusLT1B5q2AHsvTY0En85hIwd-RRIgOf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "733440569004-076qj2sqrkd6vtm68siq9c5k5seikhsv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.evCharging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733440569004:android:301e0503221c46e7b0b909",
+        "android_client_info": {
+          "package_name": "com.example.ev_charging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733440569004-bsagqvr28l8doblt8njoe72j7gcfak85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ev_charging",
+            "certificate_hash": "f70280c0fa1e5aa3aa8bd336a8c809b7636d953e"
+          }
+        },
+        {
+          "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusLT1B5q2AHsvTY0En85hIwd-RRIgOf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "733440569004-076qj2sqrkd6vtm68siq9c5k5seikhsv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.evCharging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733440569004:android:d57a9d361317bdb6b0b909",
+        "android_client_info": {
+          "package_name": "com.example.ev_charging_dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCusLT1B5q2AHsvTY0En85hIwd-RRIgOf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733440569004-8nq6u90rk9s09d39hg3rbecha3k8dffj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "733440569004-076qj2sqrkd6vtm68siq9c5k5seikhsv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.evCharging"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
