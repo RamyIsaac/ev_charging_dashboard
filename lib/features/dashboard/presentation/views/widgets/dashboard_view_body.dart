@@ -1,5 +1,7 @@
+import 'package:ev_charging_dashboard/core/utils/app_router.dart';
 import 'package:ev_charging_dashboard/core/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class DashboardViewBody extends StatelessWidget {
   const DashboardViewBody({super.key});
@@ -12,7 +14,9 @@ class DashboardViewBody extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CustomButton(
-            onTap: () {},
+            onTap: () {
+              GoRouter.of(context).push(AppRouter.kAddProductView);
+            },
             text: 'add data',
           ),
         ],

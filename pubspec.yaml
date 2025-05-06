@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^15.1.1
+  image_picker: ^1.1.2
+  skeletonizer: ^1.4.3
 
 dev_dependencies:
   flutter_lints: ^4.0.0
