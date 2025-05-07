@@ -5,14 +5,14 @@ class CustomTextFormField extends StatelessWidget {
   const CustomTextFormField(
       {super.key,
       required this.hintText,
-      required this.textInputType,
+      this.textInputType,
       this.suffixIcon,
       this.label,
       this.onSaved,
       this.obscureText = false,
       this.maxLines = 1});
   final String hintText;
-  final TextInputType textInputType;
+  final TextInputType? textInputType;
   final Widget? suffixIcon;
   final Widget? label;
   final void Function(String?)? onSaved;

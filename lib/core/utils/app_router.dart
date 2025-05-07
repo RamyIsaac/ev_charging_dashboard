@@ -1,4 +1,4 @@
-import 'package:ev_charging_dashboard/features/add_product/presentation/views/add_product_view.dart';
+import 'package:ev_charging_dashboard/features/add_station/presentation/views/add_station_view.dart';
 import 'package:ev_charging_dashboard/features/dashboard/presentation/views/dashboard_view.dart';
 import 'package:go_router/go_router.dart';
 
@@ -13,7 +13,7 @@ abstract class AppRouter {
       ),
       GoRoute(
         path: kAddProductView,
-        builder: (context, state) => const AddProductView(),
+        builder: (context, state) => const AddStationView(),
       ),
     ],
   );

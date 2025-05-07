@@ -1,18 +1,17 @@
-import 'package:ev_charging_dashboard/constants.dart';
-import 'package:ev_charging_dashboard/features/add_product/presentation/views/widgets/custom_check_box.dart';
+import 'package:ev_charging_dashboard/features/add_station/presentation/views/widgets/custom_check_box.dart';
 import 'package:flutter/material.dart';
 
-class TermsAndConditions extends StatefulWidget {
-  const TermsAndConditions({
+class IsStationAvailable extends StatefulWidget {
+  const IsStationAvailable({
     super.key,
     required this.onChange,
   });
   final ValueChanged<bool> onChange;
   @override
-  State<TermsAndConditions> createState() => _TermsAndConditionsState();
+  State<IsStationAvailable> createState() => _IsStationAvailableState();
 }
 
-class _TermsAndConditionsState extends State<TermsAndConditions> {
+class _IsStationAvailableState extends State<IsStationAvailable> {
   bool isTermsAccepted = false;
 
   @override
@@ -32,7 +31,7 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
         ),
         const Expanded(
           child: Text(
-            ' Station is Featured ? ',
+            ' Is Station Available ? ',
           ),
         ),
       ],
